@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B3E03D41D43C72400DF9BDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E03D31D43C72400DF9BDF /* main.m */; };
+		4B3E03D71D43C72400DF9BDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E03D61D43C72400DF9BDF /* AppDelegate.m */; };
+		4B3E03DA1D43C72400DF9BDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E03D91D43C72400DF9BDF /* ViewController.m */; };
+		4B3E03DD1D43C72400DF9BDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3E03DB1D43C72400DF9BDF /* Main.storyboard */; };
+		4B3E03DF1D43C72400DF9BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3E03DE1D43C72400DF9BDF /* Assets.xcassets */; };
+		4B3E03E21D43C72400DF9BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3E03E01D43C72400DF9BDF /* LaunchScreen.storyboard */; };
+		4B3E03ED1D43C72400DF9BDF /* BOSiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E03EC1D43C72400DF9BDF /* BOSiOSTests.m */; };
+		4B3E04201D43C74000DF9BDF /* BOSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E03F91D43C74000DF9BDF /* BOSClient.m */; };
+		4B3E04211D43C74000DF9BDF /* BOSCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E03FB1D43C74000DF9BDF /* BOSCompat.m */; };
+		4B3E04221D43C74000DF9BDF /* BOSHttpdns.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E03FE1D43C74000DF9BDF /* BOSHttpdns.m */; };
+		4B3E04231D43C74000DF9BDF /* BOSIPv6Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E04011D43C74000DF9BDF /* BOSIPv6Adapter.m */; };
+		4B3E04241D43C74000DF9BDF /* BOSIPv6PrefixResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E04031D43C74000DF9BDF /* BOSIPv6PrefixResolver.m */; };
+		4B3E04251D43C74000DF9BDF /* BOSReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E04051D43C74000DF9BDF /* BOSReachabilityManager.m */; };
+		4B3E04261D43C74000DF9BDF /* BOSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E04071D43C74000DF9BDF /* BOSLog.m */; };
+		4B3E04271D43C74000DF9BDF /* BOSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E04091D43C74000DF9BDF /* BOSModel.m */; };
+		4B3E04281D43C74000DF9BDF /* BOSNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E040B1D43C74000DF9BDF /* BOSNetworking.m */; };
+		4B3E04291D43C74000DF9BDF /* BOSBolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E040F1D43C74000DF9BDF /* BOSBolts.m */; };
+		4B3E042A1D43C74000DF9BDF /* BOSCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E04111D43C74000DF9BDF /* BOSCancellationToken.m */; };
+		4B3E042B1D43C74000DF9BDF /* BOSCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E04131D43C74000DF9BDF /* BOSCancellationTokenRegistration.m */; };
+		4B3E042C1D43C74000DF9BDF /* BOSCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E04151D43C74000DF9BDF /* BOSCancellationTokenSource.m */; };
+		4B3E042D1D43C74000DF9BDF /* BOSExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E04171D43C74000DF9BDF /* BOSExecutor.m */; };
+		4B3E042E1D43C74000DF9BDF /* BOSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E04191D43C74000DF9BDF /* BOSTask.m */; };
+		4B3E042F1D43C74000DF9BDF /* BOSTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E041B1D43C74000DF9BDF /* BOSTaskCompletionSource.m */; };
+		4B3E04301D43C74000DF9BDF /* BOSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E041D1D43C74000DF9BDF /* BOSUtil.m */; };
+		4B3E04311D43C74000DF9BDF /* BOSXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E041F1D43C74000DF9BDF /* BOSXMLDictionary.m */; };
+		4B3E04331D43C78B00DF9BDF /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3E04321D43C78B00DF9BDF /* libresolv.tbd */; };
+		4BC95C331D43DB5D0016B8FD /* baoquan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BC95C321D43DB5D0016B8FD /* baoquan.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B3E03E91D43C72400DF9BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3E03C71D43C72400DF9BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B3E03CE1D43C72400DF9BDF;
+			remoteInfo = BOSiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B3E03CF1D43C72400DF9BDF /* BOSiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BOSiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3E03D31D43C72400DF9BDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B3E03D51D43C72400DF9BDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B3E03D61D43C72400DF9BDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B3E03D81D43C72400DF9BDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4B3E03D91D43C72400DF9BDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B3E03DC1D43C72400DF9BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B3E03DE1D43C72400DF9BDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B3E03E11D43C72400DF9BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B3E03E31D43C72400DF9BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3E03E81D43C72400DF9BDF /* BOSiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BOSiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3E03EC1D43C72400DF9BDF /* BOSiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BOSiOSTests.m; sourceTree = "<group>"; };
+		4B3E03EE1D43C72400DF9BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3E03F81D43C74000DF9BDF /* BOSClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSClient.h; sourceTree = "<group>"; };
+		4B3E03F91D43C74000DF9BDF /* BOSClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSClient.m; sourceTree = "<group>"; };
+		4B3E03FA1D43C74000DF9BDF /* BOSCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSCompat.h; sourceTree = "<group>"; };
+		4B3E03FB1D43C74000DF9BDF /* BOSCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSCompat.m; sourceTree = "<group>"; };
+		4B3E03FC1D43C74000DF9BDF /* BOSDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSDefine.h; sourceTree = "<group>"; };
+		4B3E03FD1D43C74000DF9BDF /* BOSHttpdns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSHttpdns.h; sourceTree = "<group>"; };
+		4B3E03FE1D43C74000DF9BDF /* BOSHttpdns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSHttpdns.m; sourceTree = "<group>"; };
+		4B3E04001D43C74000DF9BDF /* BOSIPv6Adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSIPv6Adapter.h; sourceTree = "<group>"; };
+		4B3E04011D43C74000DF9BDF /* BOSIPv6Adapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSIPv6Adapter.m; sourceTree = "<group>"; };
+		4B3E04021D43C74000DF9BDF /* BOSIPv6PrefixResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSIPv6PrefixResolver.h; sourceTree = "<group>"; };
+		4B3E04031D43C74000DF9BDF /* BOSIPv6PrefixResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSIPv6PrefixResolver.m; sourceTree = "<group>"; };
+		4B3E04041D43C74000DF9BDF /* BOSReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSReachabilityManager.h; sourceTree = "<group>"; };
+		4B3E04051D43C74000DF9BDF /* BOSReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSReachabilityManager.m; sourceTree = "<group>"; };
+		4B3E04061D43C74000DF9BDF /* BOSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSLog.h; sourceTree = "<group>"; };
+		4B3E04071D43C74000DF9BDF /* BOSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSLog.m; sourceTree = "<group>"; };
+		4B3E04081D43C74000DF9BDF /* BOSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSModel.h; sourceTree = "<group>"; };
+		4B3E04091D43C74000DF9BDF /* BOSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSModel.m; sourceTree = "<group>"; };
+		4B3E040A1D43C74000DF9BDF /* BOSNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSNetworking.h; sourceTree = "<group>"; };
+		4B3E040B1D43C74000DF9BDF /* BOSNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSNetworking.m; sourceTree = "<group>"; };
+		4B3E040C1D43C74000DF9BDF /* BOSService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSService.h; sourceTree = "<group>"; };
+		4B3E040E1D43C74000DF9BDF /* BOSBolts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSBolts.h; sourceTree = "<group>"; };
+		4B3E040F1D43C74000DF9BDF /* BOSBolts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSBolts.m; sourceTree = "<group>"; };
+		4B3E04101D43C74000DF9BDF /* BOSCancellationToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSCancellationToken.h; sourceTree = "<group>"; };
+		4B3E04111D43C74000DF9BDF /* BOSCancellationToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSCancellationToken.m; sourceTree = "<group>"; };
+		4B3E04121D43C74000DF9BDF /* BOSCancellationTokenRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSCancellationTokenRegistration.h; sourceTree = "<group>"; };
+		4B3E04131D43C74000DF9BDF /* BOSCancellationTokenRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSCancellationTokenRegistration.m; sourceTree = "<group>"; };
+		4B3E04141D43C74000DF9BDF /* BOSCancellationTokenSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSCancellationTokenSource.h; sourceTree = "<group>"; };
+		4B3E04151D43C74000DF9BDF /* BOSCancellationTokenSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSCancellationTokenSource.m; sourceTree = "<group>"; };
+		4B3E04161D43C74000DF9BDF /* BOSExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSExecutor.h; sourceTree = "<group>"; };
+		4B3E04171D43C74000DF9BDF /* BOSExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSExecutor.m; sourceTree = "<group>"; };
+		4B3E04181D43C74000DF9BDF /* BOSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSTask.h; sourceTree = "<group>"; };
+		4B3E04191D43C74000DF9BDF /* BOSTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSTask.m; sourceTree = "<group>"; };
+		4B3E041A1D43C74000DF9BDF /* BOSTaskCompletionSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSTaskCompletionSource.h; sourceTree = "<group>"; };
+		4B3E041B1D43C74000DF9BDF /* BOSTaskCompletionSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSTaskCompletionSource.m; sourceTree = "<group>"; };
+		4B3E041C1D43C74000DF9BDF /* BOSUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSUtil.h; sourceTree = "<group>"; };
+		4B3E041D1D43C74000DF9BDF /* BOSUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSUtil.m; sourceTree = "<group>"; };
+		4B3E041E1D43C74000DF9BDF /* BOSXMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSXMLDictionary.h; sourceTree = "<group>"; };
+		4B3E041F1D43C74000DF9BDF /* BOSXMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSXMLDictionary.m; sourceTree = "<group>"; };
+		4B3E04321D43C78B00DF9BDF /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		4BC95C321D43DB5D0016B8FD /* baoquan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baoquan.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B3E03CC1D43C72400DF9BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3E04331D43C78B00DF9BDF /* libresolv.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3E03E51D43C72400DF9BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B3E03C61D43C72400DF9BDF = {
+			isa = PBXGroup;
+			children = (
+				4B3E04321D43C78B00DF9BDF /* libresolv.tbd */,
+				4B3E03D11D43C72400DF9BDF /* BOSiOS */,
+				4B3E03EB1D43C72400DF9BDF /* BOSiOSTests */,
+				4B3E03D01D43C72400DF9BDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B3E03D01D43C72400DF9BDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B3E03CF1D43C72400DF9BDF /* BOSiOS.app */,
+				4B3E03E81D43C72400DF9BDF /* BOSiOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B3E03D11D43C72400DF9BDF /* BOSiOS */ = {
+			isa = PBXGroup;
+			children = (
+				4BC95C321D43DB5D0016B8FD /* baoquan.jpg */,
+				4B3E03F71D43C74000DF9BDF /* BaiduyunBOSiOS */,
+				4B3E03D51D43C72400DF9BDF /* AppDelegate.h */,
+				4B3E03D61D43C72400DF9BDF /* AppDelegate.m */,
+				4B3E03D81D43C72400DF9BDF /* ViewController.h */,
+				4B3E03D91D43C72400DF9BDF /* ViewController.m */,
+				4B3E03DB1D43C72400DF9BDF /* Main.storyboard */,
+				4B3E03DE1D43C72400DF9BDF /* Assets.xcassets */,
+				4B3E03E01D43C72400DF9BDF /* LaunchScreen.storyboard */,
+				4B3E03E31D43C72400DF9BDF /* Info.plist */,
+				4B3E03D21D43C72400DF9BDF /* Supporting Files */,
+			);
+			path = BOSiOS;
+			sourceTree = "<group>";
+		};
+		4B3E03D21D43C72400DF9BDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B3E03D31D43C72400DF9BDF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B3E03EB1D43C72400DF9BDF /* BOSiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B3E03EC1D43C72400DF9BDF /* BOSiOSTests.m */,
+				4B3E03EE1D43C72400DF9BDF /* Info.plist */,
+			);
+			path = BOSiOSTests;
+			sourceTree = "<group>";
+		};
+		4B3E03F71D43C74000DF9BDF /* BaiduyunBOSiOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B3E03F81D43C74000DF9BDF /* BOSClient.h */,
+				4B3E03F91D43C74000DF9BDF /* BOSClient.m */,
+				4B3E03FA1D43C74000DF9BDF /* BOSCompat.h */,
+				4B3E03FB1D43C74000DF9BDF /* BOSCompat.m */,
+				4B3E03FC1D43C74000DF9BDF /* BOSDefine.h */,
+				4B3E03FD1D43C74000DF9BDF /* BOSHttpdns.h */,
+				4B3E03FE1D43C74000DF9BDF /* BOSHttpdns.m */,
+				4B3E03FF1D43C74000DF9BDF /* BOSIPv6 */,
+				4B3E04061D43C74000DF9BDF /* BOSLog.h */,
+				4B3E04071D43C74000DF9BDF /* BOSLog.m */,
+				4B3E04081D43C74000DF9BDF /* BOSModel.h */,
+				4B3E04091D43C74000DF9BDF /* BOSModel.m */,
+				4B3E040A1D43C74000DF9BDF /* BOSNetworking.h */,
+				4B3E040B1D43C74000DF9BDF /* BOSNetworking.m */,
+				4B3E040C1D43C74000DF9BDF /* BOSService.h */,
+				4B3E040D1D43C74000DF9BDF /* BOSTask */,
+				4B3E041C1D43C74000DF9BDF /* BOSUtil.h */,
+				4B3E041D1D43C74000DF9BDF /* BOSUtil.m */,
+				4B3E041E1D43C74000DF9BDF /* BOSXMLDictionary.h */,
+				4B3E041F1D43C74000DF9BDF /* BOSXMLDictionary.m */,
+			);
+			path = BaiduyunBOSiOS;
+			sourceTree = "<group>";
+		};
+		4B3E03FF1D43C74000DF9BDF /* BOSIPv6 */ = {
+			isa = PBXGroup;
+			children = (
+				4B3E04001D43C74000DF9BDF /* BOSIPv6Adapter.h */,
+				4B3E04011D43C74000DF9BDF /* BOSIPv6Adapter.m */,
+				4B3E04021D43C74000DF9BDF /* BOSIPv6PrefixResolver.h */,
+				4B3E04031D43C74000DF9BDF /* BOSIPv6PrefixResolver.m */,
+				4B3E04041D43C74000DF9BDF /* BOSReachabilityManager.h */,
+				4B3E04051D43C74000DF9BDF /* BOSReachabilityManager.m */,
+			);
+			path = BOSIPv6;
+			sourceTree = "<group>";
+		};
+		4B3E040D1D43C74000DF9BDF /* BOSTask */ = {
+			isa = PBXGroup;
+			children = (
+				4B3E040E1D43C74000DF9BDF /* BOSBolts.h */,
+				4B3E040F1D43C74000DF9BDF /* BOSBolts.m */,
+				4B3E04101D43C74000DF9BDF /* BOSCancellationToken.h */,
+				4B3E04111D43C74000DF9BDF /* BOSCancellationToken.m */,
+				4B3E04121D43C74000DF9BDF /* BOSCancellationTokenRegistration.h */,
+				4B3E04131D43C74000DF9BDF /* BOSCancellationTokenRegistration.m */,
+				4B3E04141D43C74000DF9BDF /* BOSCancellationTokenSource.h */,
+				4B3E04151D43C74000DF9BDF /* BOSCancellationTokenSource.m */,
+				4B3E04161D43C74000DF9BDF /* BOSExecutor.h */,
+				4B3E04171D43C74000DF9BDF /* BOSExecutor.m */,
+				4B3E04181D43C74000DF9BDF /* BOSTask.h */,
+				4B3E04191D43C74000DF9BDF /* BOSTask.m */,
+				4B3E041A1D43C74000DF9BDF /* BOSTaskCompletionSource.h */,
+				4B3E041B1D43C74000DF9BDF /* BOSTaskCompletionSource.m */,
+			);
+			path = BOSTask;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B3E03CE1D43C72400DF9BDF /* BOSiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3E03F11D43C72400DF9BDF /* Build configuration list for PBXNativeTarget "BOSiOS" */;
+			buildPhases = (
+				4B3E03CB1D43C72400DF9BDF /* Sources */,
+				4B3E03CC1D43C72400DF9BDF /* Frameworks */,
+				4B3E03CD1D43C72400DF9BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BOSiOS;
+			productName = BOSiOS;
+			productReference = 4B3E03CF1D43C72400DF9BDF /* BOSiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B3E03E71D43C72400DF9BDF /* BOSiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3E03F41D43C72400DF9BDF /* Build configuration list for PBXNativeTarget "BOSiOSTests" */;
+			buildPhases = (
+				4B3E03E41D43C72400DF9BDF /* Sources */,
+				4B3E03E51D43C72400DF9BDF /* Frameworks */,
+				4B3E03E61D43C72400DF9BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B3E03EA1D43C72400DF9BDF /* PBXTargetDependency */,
+			);
+			name = BOSiOSTests;
+			productName = BOSiOSTests;
+			productReference = 4B3E03E81D43C72400DF9BDF /* BOSiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B3E03C71D43C72400DF9BDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kkwong;
+				TargetAttributes = {
+					4B3E03CE1D43C72400DF9BDF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4B3E03E71D43C72400DF9BDF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4B3E03CE1D43C72400DF9BDF;
+					};
+				};
+			};
+			buildConfigurationList = 4B3E03CA1D43C72400DF9BDF /* Build configuration list for PBXProject "BOSiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B3E03C61D43C72400DF9BDF;
+			productRefGroup = 4B3E03D01D43C72400DF9BDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B3E03CE1D43C72400DF9BDF /* BOSiOS */,
+				4B3E03E71D43C72400DF9BDF /* BOSiOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B3E03CD1D43C72400DF9BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3E03E21D43C72400DF9BDF /* LaunchScreen.storyboard in Resources */,
+				4BC95C331D43DB5D0016B8FD /* baoquan.jpg in Resources */,
+				4B3E03DF1D43C72400DF9BDF /* Assets.xcassets in Resources */,
+				4B3E03DD1D43C72400DF9BDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3E03E61D43C72400DF9BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B3E03CB1D43C72400DF9BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3E04291D43C74000DF9BDF /* BOSBolts.m in Sources */,
+				4B3E04251D43C74000DF9BDF /* BOSReachabilityManager.m in Sources */,
+				4B3E04261D43C74000DF9BDF /* BOSLog.m in Sources */,
+				4B3E042A1D43C74000DF9BDF /* BOSCancellationToken.m in Sources */,
+				4B3E042B1D43C74000DF9BDF /* BOSCancellationTokenRegistration.m in Sources */,
+				4B3E04281D43C74000DF9BDF /* BOSNetworking.m in Sources */,
+				4B3E04301D43C74000DF9BDF /* BOSUtil.m in Sources */,
+				4B3E04221D43C74000DF9BDF /* BOSHttpdns.m in Sources */,
+				4B3E04311D43C74000DF9BDF /* BOSXMLDictionary.m in Sources */,
+				4B3E042E1D43C74000DF9BDF /* BOSTask.m in Sources */,
+				4B3E04211D43C74000DF9BDF /* BOSCompat.m in Sources */,
+				4B3E03DA1D43C72400DF9BDF /* ViewController.m in Sources */,
+				4B3E042F1D43C74000DF9BDF /* BOSTaskCompletionSource.m in Sources */,
+				4B3E04241D43C74000DF9BDF /* BOSIPv6PrefixResolver.m in Sources */,
+				4B3E042C1D43C74000DF9BDF /* BOSCancellationTokenSource.m in Sources */,
+				4B3E04231D43C74000DF9BDF /* BOSIPv6Adapter.m in Sources */,
+				4B3E042D1D43C74000DF9BDF /* BOSExecutor.m in Sources */,
+				4B3E04201D43C74000DF9BDF /* BOSClient.m in Sources */,
+				4B3E03D71D43C72400DF9BDF /* AppDelegate.m in Sources */,
+				4B3E04271D43C74000DF9BDF /* BOSModel.m in Sources */,
+				4B3E03D41D43C72400DF9BDF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3E03E41D43C72400DF9BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3E03ED1D43C72400DF9BDF /* BOSiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B3E03EA1D43C72400DF9BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B3E03CE1D43C72400DF9BDF /* BOSiOS */;
+			targetProxy = 4B3E03E91D43C72400DF9BDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B3E03DB1D43C72400DF9BDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3E03DC1D43C72400DF9BDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B3E03E01D43C72400DF9BDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3E03E11D43C72400DF9BDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B3E03EF1D43C72400DF9BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B3E03F01D43C72400DF9BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B3E03F21D43C72400DF9BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BOSiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ancun.BOSiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B3E03F31D43C72400DF9BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BOSiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ancun.BOSiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B3E03F51D43C72400DF9BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BOSiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ancun.BOSiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BOSiOS.app/BOSiOS";
+			};
+			name = Debug;
+		};
+		4B3E03F61D43C72400DF9BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BOSiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ancun.BOSiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BOSiOS.app/BOSiOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B3E03CA1D43C72400DF9BDF /* Build configuration list for PBXProject "BOSiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3E03EF1D43C72400DF9BDF /* Debug */,
+				4B3E03F01D43C72400DF9BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3E03F11D43C72400DF9BDF /* Build configuration list for PBXNativeTarget "BOSiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3E03F21D43C72400DF9BDF /* Debug */,
+				4B3E03F31D43C72400DF9BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3E03F41D43C72400DF9BDF /* Build configuration list for PBXNativeTarget "BOSiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3E03F51D43C72400DF9BDF /* Debug */,
+				4B3E03F61D43C72400DF9BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B3E03C71D43C72400DF9BDF /* Project object */;
+}
